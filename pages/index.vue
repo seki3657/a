@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>index Page</h1>
+    <h1>index Page　「ようこそ」</h1>
     <nuxt-link to="/">Home</nuxt-link>
     <nuxt-link to="/about">About</nuxt-link>
   </div>
