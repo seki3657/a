@@ -1,4 +1,3 @@
-<User
 <template>
   <div>
     <div class="container mt-4">
