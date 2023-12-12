@@ -5,7 +5,7 @@
   <div>
     <h2><nuxt-link to="/about">１位・タージ・マハル</nuxt-link></h2>
     <img
-      src="https://publicdomainq.net/images/201801/11s/publicdomainq-0017727lng.jpg"
+      src="https://thumb.photo-ac.com/a5/a5506706c92c2c1c686c034e56403e1d_t.jpeg"
       alt="Recipe Image"
     />
   </div>
