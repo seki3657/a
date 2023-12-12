@@ -4,6 +4,10 @@
   </div>
   <div>
     <h2><nuxt-link to="/about">１位・タージ・マハル</nuxt-link></h2>
+    <img
+      src="https://img.cpcdn.com/recipes/3695776/894x1461s/03855e67f64548a05b1f995faabe8f57?u=12868943&p=1455726325"
+      alt="Recipe Image"
+    />
   </div>
   <div>  <nuxt-link to="/recipe">Recipe</nuxt-link>
   </div>
@@ -21,4 +25,7 @@
   }
   </style>
 
+<script setup>
+const data = useRecipe()
+</script>
 
