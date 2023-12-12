@@ -23,5 +23,11 @@ body {
   height: 50px;
   background-color: yellow;
 }
+.box {
+  width: 300px;
+  height: 185px;
+  background-image: url("https://jajaaan.co.jp/wp-content/uploads/2020/04/css-background.png");
+  background-size: 300px; 185px;
+}
 </style>
 
