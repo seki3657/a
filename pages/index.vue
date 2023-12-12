@@ -47,7 +47,6 @@ body {
 const data = useRecipe()
 </script>
 
-<!-- BootstrapのCSSとJavaScriptをhead内に追加 -->
 <script>
 export default {
   head() {
