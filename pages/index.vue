@@ -1,7 +1,7 @@
 <template>
   <div>
-  <h1>世界遺産人気ランキング</h1>
-  <nuxt-link to="/about">About</nuxt-link>
+  <h1>世界文化遺産人気ランキング</h1>
+  <nuxt-link to="/about">１位・タージ・マハル</nuxt-link>
   </div>
   <div>  <nuxt-link to="/recipe">Recipe</nuxt-link>
   </div>
