@@ -8,7 +8,7 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpublicdomainq.net%2Fmont-saint-michel-0023778%2F&psig=AOvVaw2QVr4bQyN9vtsNwGBEYZrf&ust=1702494734362000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPD5wqHNioMDFQAAAAAdAAAAABAD"
+            src="https://img.cpcdn.com/recipes/3695776/894x1461s/03855e67f64548a05b1f995faabe8f57?u=12868943&p=1455726325"
             class="img-fluid rounded-start" alt="...">
         </div>
         <div class="col-md-8">
