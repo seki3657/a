@@ -3,7 +3,7 @@
     <h1>index Page「ようこそ」</h1>
 
     <div class="box">
-      <nuxt-link to="/about">About</nuxt-link>
+      <nuxt-link to="/LayoutNormal">About</nuxt-link>
     </div>
 
     <div class="box">
