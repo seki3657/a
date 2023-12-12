@@ -1,3 +1,4 @@
+<!-- pages/index.vue -->
 <template>
   <div>
     <h1>index Page「ようこそ」</h1>
@@ -12,6 +13,16 @@
   </div>
 </template>
 
+<script lang="ts">
+import { Component, Vue } from 'nuxt-property-decorator';
+
+/**
+ * ページコンポーネント
+ */
+@Component({ layout: 'layout-custom' })
+export default class IndexPage extends Vue {}
+</script>
+
 <style scoped>
 body {
   background-color: skyblue;
@@ -24,4 +35,5 @@ body {
   background-color: yellow;
 }
 </style>
+
 
