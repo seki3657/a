@@ -19,8 +19,8 @@ body {
 
 .box {
   margin: 10 auto;
-  width: 100px;
-  height: 1000px;
+  width: 1000px;
+  height: 100px;
   background-color: yellow;
 }
 </style>
