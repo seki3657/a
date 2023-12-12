@@ -2,12 +2,12 @@
   <div>
     <div class="container mt-4">
       <h1 class="mb-4">タージ・マハル</h1>
-      
+      <div class="mb-4">
+        <h3 class="mb-4">タージ・マハルはインド北部のアーグラにある、ムガル帝国第5代皇帝シャー・ジャハーンの妃ムムターズ・マハルの墓廟です。総大理石の白亜の廟は、インド・イスラム文化の代表的な建築物です。1983年、インドの世界遺産に登録されました。</h3>
+      </div>
       <div class="mb-4">
         <nuxt-link to="/" class="btn btn-primary">戻る</nuxt-link>
       </div>
-
-      <!-- ここにコンテンツを追加 -->
     </div>
   </div>
 </template>
@@ -44,3 +44,4 @@ export default {
   },
 };
 </script>
+
