@@ -20,7 +20,7 @@ body {
 .box {
   margin: 10 auto;
   width: 100px;
-  height: 100px;
+  height: 1000px;
   background-color: yellow;
 }
 </style>
