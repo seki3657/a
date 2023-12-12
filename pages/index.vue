@@ -18,7 +18,7 @@ body {
 }
 
 .box {
-  margin: 0 auto;
+  margin: 10 auto;
   width: 100px;
   height: 100px;
   background-color: yellow;
