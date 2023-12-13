@@ -1,6 +1,7 @@
 <template>
   <Layout>
-    <p>親コンポーネントで挿入される要素</p>
+    <h1>トップページ</h1>
+    <p>トップページのコンテンツ</p>
   </Layout>
 </template>
 
