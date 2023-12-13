@@ -14,6 +14,8 @@
         />
       </div>
     </div>
+
+<div class="card mb-4">
       <div class="card-body">
         <h2 class="card-title">
           <nuxt-link to="/a">2位・自由の女神</nuxt-link>
