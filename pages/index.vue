@@ -106,5 +106,8 @@ body {
 </style>
 
 <script setup>
-const data = useRecipe()
+const recipe = useRecipe()
+onMounted(() => {
+  // コンポーネントがマウントされた時の処理
+});
 </script>
