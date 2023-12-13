@@ -34,7 +34,43 @@
       <nuxt-link to="/recipe" class="btn btn-primary stylish-button">Recipe</nuxt-link>
     </div>
   </div>
+  <div>
+    <Header />
+    
+    <main>
+      <h1>トップページ</h1>
+      <p>ここにページコンテンツが入ります。</p>
+
+      <!-- 例: 新しいコンポーネントを追加 -->
+      <MyCustomComponent />
+
+      <!-- 例: テキストの追加 -->
+      <p>新しいテキストを追加します。</p>
+
+      <!-- 例: 画像の追加 -->
+      <img src="~/assets/images/example.jpg" alt="Example Image" />
+
+      <!-- 例: リンクの追加 -->
+      <a href="/new-page">新しいページへのリンク</a>
+    </main>
+    
+    <Footer />
+  </div>
 </template>
+
+<script>
+import Header from '@/components/Header.vue';
+import Footer from '@/components/Footer.vue';
+import MyCustomComponent from '@/components/MyCustomComponent.vue'; // 例として追加
+
+export default {
+  components: {
+    Header,
+    Footer,
+    MyCustomComponent,
+  },
+};
+</script>
 
 <style scoped>
 body {
