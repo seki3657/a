@@ -15,6 +15,18 @@
       </div>
     </div>
 
+<div class="card mb-4">
+      <div class="card-body">
+        <h2 class="card-title">
+          <nuxt-link to="/a">2位・自由の女神</nuxt-link>
+        </h2>
+        <img
+          src="https://thumb.photo-ac.com/a5/a5506706c92c2c1c686c034e56403e1d_t.jpeg"
+          alt="Recipe Image"
+          class="img-fluid rounded"
+        />
+      </div>
+    </div>
     <div class="box">
       <nuxt-link to="/recipe" class="btn btn-primary">Recipe</nuxt-link>
     </div>
