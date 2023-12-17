@@ -1,7 +1,7 @@
 <template>
   <div>
-    <AppHeader />
-    <AppAside />
-    <slot />
-    <AppFooter />
+    <p>ヘッダー</p>
+    <nuxt />
+    <p>フッター</p>
   </div>
+ </template>
