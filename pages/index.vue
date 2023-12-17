@@ -9,7 +9,7 @@
             <nuxt-link to="/about">１位・タージ・マハル</nuxt-link>
           </h2>
           <img
-            :src="require('~/static/images/taj-mahal.jpg')"
+            src="https://thumb.photo-ac.com/a5/a5506706c92c2c1c686c034e56403e1d_t.jpeg"
             alt="Taj Mahal"
             class="img-fluid rounded"
           />
@@ -22,7 +22,7 @@
             <nuxt-link to="/a">2位・自由の女神</nuxt-link>
           </h2>
           <img
-            :src="require('~/static/images/statue-of-liberty.jpg')"
+            src="https://thumb.photo-ac.com/b9/b92f7ddb7e2f121217fea880c31d023c_t.jpeg"
             alt="Statue of Liberty"
             class="img-fluid rounded"
           />
