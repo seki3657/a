@@ -4,4 +4,4 @@
     <nuxt />
     <p>フッター</p>
   </div>
- </template>
+</template>
