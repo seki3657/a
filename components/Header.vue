@@ -1,5 +1,3 @@
-<!-- Header.vue -->
-
 <template>
   <header>
     <div class="logo">
