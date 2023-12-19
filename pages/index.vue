@@ -36,47 +36,45 @@
   </div>
 </template>
 
-
 <style scoped>
-body {
-  background-color: #f8f9fa;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.stylish-card {
-  background-color: #fff;
-  border: 1px solid #ced4da;
-  border-radius: 10px;
-  transition: transform 0.3s ease-in-out;
-
-  &:hover {
-    transform: scale(1.05);
+  body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-}
 
-.stylish-button {
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-  transition: background-color 0.3s ease-in-out;
+  .stylish-card {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
 
-  &:hover {
-    background-color: #0056b3;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
-}
+
+  .stylish-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
 </style>
 
 <script setup>
-const data = useRecipe()
+  const data = useRecipe()
 </script>
 
 <script>
-export default {
-  layout: 'default',
-};
+  export default {
+    layout: 'default',
+  };
 </script>
-
