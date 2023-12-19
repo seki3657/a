@@ -36,6 +36,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  layout: 'default',
+}
+</script>
+
 <style scoped>
 body {
   background-color: #f8f9fa;
@@ -74,8 +80,3 @@ const data = useRecipe()
 </script>
 
 
-<script>
-export default {
-  layout: 'default',
-}
-</script>
