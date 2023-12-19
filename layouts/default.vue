@@ -1,1 +1,5 @@
-npm run dev
+<template>
+<div>
+<nuxt /> 
+</div>
+</template>
