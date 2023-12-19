@@ -36,11 +36,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  layout: 'default',
-}
-</script>
 
 <style scoped>
 body {
@@ -78,5 +73,9 @@ body {
 <script setup>
 const data = useRecipe()
 </script>
-
+<script>
+export default {
+  layout: 'default',
+};
+</script>
 
