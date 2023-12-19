@@ -18,7 +18,7 @@
 </template>
 
 <style scoped>
-/* カスタムのスタイルがあれば追加 */
+
 </style>
 
 <script setup>
