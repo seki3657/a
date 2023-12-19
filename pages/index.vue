@@ -75,8 +75,5 @@ body {
 }
 </style>
 
-<script setup>
-const data = useRecipe()
-</script>
 
 
