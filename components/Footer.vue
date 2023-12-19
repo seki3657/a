@@ -1,9 +1,5 @@
 <template>
   <header>
-    <div class="logo">
-      <!-- ロゴやアイコンの表示 -->
-      <img src="/path/to/logo.png" alt="Logo" />
-    </div>
     <nav>
       <ul>
         <li><nuxt-link to="/">Home</nuxt-link></li>
