@@ -1,27 +1,40 @@
+<!-- Header.vue -->
+
 <template>
   <header>
-    <div class="logo">My Logo</div>
+    <div class="logo">
+      <!-- ロゴやアイコンの表示 -->
+      <img src="/path/to/logo.png" alt="Logo" />
+    </div>
     <nav>
+      <!-- ナビゲーションメニュー -->
       <ul>
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/about">About</router-link></li>
-        <li><router-link to="/contact">Contact</router-link></li>
+        <li><nuxt-link to="/">Home</nuxt-link></li>
+        <li><nuxt-link to="/about">About</nuxt-link></li>
+        <li><nuxt-link to="/contact">Contact</nuxt-link></li>
+        <!-- 他のメニューアイテムを追加 -->
       </ul>
     </nav>
-    <!-- 他のヘッダー要素を追加 -->
   </header>
 </template>
 
+<script>
+// コンポーネントのロジックやデータがあればここに記述
+export default {
+  // コンポーネントのプロパティやメソッドなど
+};
+</script>
+
 <style scoped>
+/* ヘッダーのスタイリングがあればここに記述 */
 header {
   background-color: #333;
   color: white;
   padding: 10px;
 }
 
-.logo {
-  font-size: 1.5em;
-  font-weight: bold;
+.logo img {
+  max-width: 100px; /* ロゴの最大幅を指定 */
 }
 
 nav ul {
@@ -30,4 +43,11 @@ nav ul {
 }
 
 nav li {
-  margin-right
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+</style>
