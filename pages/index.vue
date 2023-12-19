@@ -72,3 +72,9 @@
 <script setup>
   const data = useRecipe()
 </script>
+
+<script>
+export default {
+  layout: 'default',
+};
+</script>
