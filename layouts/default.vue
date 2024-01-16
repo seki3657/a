@@ -1,18 +1,16 @@
 <template>
   <div>
     <nuxt />
-    <ABCVue />
+    <ABC />
   </div>
 </template>
 
 <script>
-import Footer from '@/components/Footer'
-import type ABCVue from '~/components/ABC.vue';
+import ABC from '@/components/ABC'
 
 export default {
   components: {
-    Footer,
-    ABCVue
-}
+    ABC
+  }
 }
 </script>
