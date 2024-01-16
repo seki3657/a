@@ -1,16 +1,16 @@
 <template>
   <div>
     <nuxt />
-    <ABC />
+    <Footer />
   </div>
 </template>
 
 <script>
-import ABC from '@/components/ABC'
+import Footer from '@/components/Footer'
 
 export default {
   components: {
-    ABC
+    Footer
   }
 }
 </script>
