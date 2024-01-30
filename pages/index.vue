@@ -19,7 +19,7 @@
       <div class="card stylish-card">
         <div class="card-body">
           <h2 class="card-title">
-            <nuxt-link to="/a">{{abcdef}}</nuxt-link>
+            <nuxt-link to="/a">abcdef</nuxt-link>
           </h2>
           <img
             src="https://thumb.photo-ac.com/b9/b92f7ddb7e2f121217fea880c31d023c_t.jpeg"
