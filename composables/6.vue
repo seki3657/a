@@ -1,5 +1,5 @@
 <script>
-import CustomComponent from '@/components/CustomComponent.vue';
+import CustomComponent from '@/components/CustomComponent.vue'; // パスは実際のプロジェクトの構造に基づきます
 
 export default {
   data() {
@@ -13,3 +13,4 @@ export default {
   },
 };
 </script>
+
