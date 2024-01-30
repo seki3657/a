@@ -1,15 +1,15 @@
 <template>
   <div>
-    <h1 class="mb-4 text-center">{{ co }}</h1>
+    <h1 class="mb-4 text-center">{{ title }}</h1>
 
     <div class="card-deck mb-4">
       <div class="card stylish-card">
         <div class="card-body">
           <h2 class="card-title">
-            <nuxt-link to="/about">１位・タージ・マハル</nuxt-link>
+            <nuxt-link to="/about">{{ title2 }}</nuxt-link>
           </h2>
           <img
-            src="https://thumb.photo-ac.com/a5/a5506706c92c2c1c686c034e56403e1d_t.jpeg"
+            :src="image1"
             alt="Taj Mahal"
             class="img-fluid rounded"
           />
@@ -19,10 +19,10 @@
       <div class="card stylish-card">
         <div class="card-body">
           <h2 class="card-title">
-            <nuxt-link to="/a">2位・自由の女神</nuxt-link>
+            <nuxt-link to="/a">{{ title3 }}</nuxt-link>
           </h2>
           <img
-            src="https://thumb.photo-ac.com/b9/b92f7ddb7e2f121217fea880c31d023c_t.jpeg"
+            :src="image2"
             alt="Statue of Liberty"
             class="img-fluid rounded"
           />
@@ -31,10 +31,37 @@
     </div>
 
     <div class="text-center">
-      <nuxt-link to="/recipe" class="btn btn-primary stylish-button">Recipe</nuxt-link>
+      <nuxt-link to="/recipe" class="btn btn-primary stylish-button">{{ buttonLabel }}</nuxt-link>
     </div>
   </div>
 </template>
+
+<script>
+import { useRankingData } from '~/composables/useRankingData';
+
+export default {
+  setup() {
+    const {
+      title,
+      title2,
+      title3,
+      image1,
+      image2,
+      buttonLabel,
+    } = useRankingData();
+
+    return {
+      title,
+      title2,
+      title3,
+      image1,
+      image2,
+      buttonLabel,
+    };
+  },
+};
+</script>
+
 
 <style scoped>
   body {

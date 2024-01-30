@@ -1,4 +1,4 @@
-<script>
+
 export default {
   pages: 'index',
   data() {
@@ -18,4 +18,4 @@ export default {
   },
   // 他にもオプションを追加できます
 };
-</script>
+
