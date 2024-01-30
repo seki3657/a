@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container mt-4">
-      <h1 class="mb-4">自由の女神像</h1>
+      <h1 class="mb-4"><title></title></h1>
       <img
           src="https://thumb.photo-ac.com/b9/b92f7ddb7e2f121217fea880c31d023c_t.jpeg"
           alt="Recipe Image"
