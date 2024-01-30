@@ -6,11 +6,11 @@
 </template>
 
 <script>
-import Footer from '@/components/Footer'
+import He from '@/components/Footer'
 
 export default {
   components: {
-    He
+    Footer
   }
 }
 </script>
