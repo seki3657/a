@@ -1,21 +1,13 @@
 
-export default {
-  pages: 'index',
-  data() {
-    return {
-      co: "世界文化遺産人気ランキング",
-      co2: "１位・タージ・マハル",
-      co3: "2位・自由の女神",
-      c04: "3位・パリのモン・サン・ミシェル",
-      c05: "4位・京都の古都",
-    };
-  },
-  methods: {
-    // ここに追加のメソッドを定義できます
-  },
-  computed: {
-    // ここに追加の計算プロパティを定義できます
-  },
-  // 他にもオプションを追加できます
-};
-
+import { ref, onMounted, onUnmounted } from 'vue'
+export function useMouse() {
+ const x = ref(0)
+ const y = ref(0)
+ function update(event) {
+   x.value = event.pageX
+   y.value = event.pageY
+ }
+ onMounted(() => window.addEventListener('mousemove', update))
+ onUnmounted(() => window.removeEventListener('mousemove', update))
+ return { x, y }
+}
