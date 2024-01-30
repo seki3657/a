@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="mb-4 text-center">世界文化遺産人気ランキング</h1>
+    <h1 class="mb-4 text-center">{{ co }}</h1>
 
     <div class="card-deck mb-4">
       <div class="card stylish-card">
