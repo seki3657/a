@@ -1,17 +1,15 @@
 <template>
   <div>
     <div class="container mt-4">
-      <h1 class="mb-4">{{ title }}</h1>
+      <h1 class="mb-4">{{title}}</h1>
       <img
-        src="https://thumb.photo-ac.com/b9/b92f7ddb7e2f121217fea880c31d023c_t.jpeg"
-        alt="Recipe Image"
-        class="img-fluid rounded"
-      />
+          src="https://thumb.photo-ac.com/b9/b92f7ddb7e2f121217fea880c31d023c_t.jpeg"
+          alt="Recipe Image"
+          class="img-fluid rounded"
+        />
       <div class="mb-4">
-        <h3 class="mb-4">{{ title2 }}</h3>
+        <h3 class="mb-4">{{ title }}</h3>
       </div>
-      <!-- CustomComponent を追加 -->
-      <CustomComponent />
       <div class="mb-4">
         <nuxt-link to="/" class="btn btn-primary">戻る</nuxt-link>
       </div>
@@ -19,35 +17,15 @@
   </div>
 </template>
 
-<script>
-// 通常の Vue コンポーネントとしてのスクリプト
-import CustomComponent from '@/components/CustomComponent.vue'; // パスは実際のプロジェクトの構造に基づきます
-
-export default {
-  data() {
-    return {
-      title: "自由の女神像",
-      title2: "自由の女神像はアメリカのニューヨーク港内リバティ島にあり、1984年、世界遺産に登録されました。正式名称は「世界を照らす自由」といい、アメリカの自由と民主主義の象徴となっています。",
-    };
-  },
-  components: {
-    CustomComponent,
-  },
-};
-</script>
-
 <style scoped>
-/* このセクションにはコンポーネントのスタイルが入ります */
+
 </style>
 
 <script setup>
-// `<script setup>` を使用している場合は、このセクションが `script` セクションとして処理されます
-// `useRecipe` 関数は、ここで定義される必要があります
 const data = useRecipe()
 </script>
 
 <script>
-// `setup` がすでにある場合は、こちらのセクションも同じように動作します
 export default {
   head() {
     return {
