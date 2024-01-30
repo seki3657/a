@@ -10,7 +10,7 @@ import He from '@/components/Footer'
 
 export default {
   components: {
-    Footer
+    He
   }
 }
 </script>
