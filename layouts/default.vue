@@ -1,16 +1,16 @@
 <template>
   <div>
     <nuxt />
-    <He/>
+    <he />
   </div>
 </template>
 
 <script>
-import He from '@/components/Footer'
+import he from '@/components/He'  // Import the correct component
 
 export default {
   components: {
-    He
+    he
   }
 }
 </script>
