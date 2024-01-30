@@ -1,4 +1,5 @@
 <script>
+export 
 const ComponentsApp = {
   data() {
     return {

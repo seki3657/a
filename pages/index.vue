@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="mb-4 text-center">世界文化遺産人気ランキング</h1>
+    <h1 class="mb-4 text-center">{{ abcdef }}</h1>
 
     <div class="card-deck mb-4">
       <div class="card stylish-card">
@@ -19,7 +19,7 @@
       <div class="card stylish-card">
         <div class="card-body">
           <h2 class="card-title">
-            <nuxt-link to="/a"><abcdef></abcdef></nuxt-link>
+            <nuxt-link to="/a">2位・自由の女神</nuxt-link>
           </h2>
           <img
             src="https://thumb.photo-ac.com/b9/b92f7ddb7e2f121217fea880c31d023c_t.jpeg"
