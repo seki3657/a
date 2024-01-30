@@ -8,7 +8,7 @@
           class="img-fluid rounded"
         />
       <div class="mb-4">
-        <h3 class="mb-4">自由の女神像はアメリカのニューヨーク港内リバティ島にあり、1984年、世界遺産に登録されました。 正式名称は「世界を照らす自由」といい、アメリカの自由と民主主義の象徴となっています。</h3>
+        <h3 class="mb-4">{{ title2 }}</h3>
       </div>
       <div class="mb-4">
         <nuxt-link to="/" class="btn btn-primary">戻る</nuxt-link>
