@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="mb-4 text-center">{{ abcdef }}</h1>
+    <h1 class="mb-4 text-center">世界文化遺産人気ランキング</h1>
 
     <div class="card-deck mb-4">
       <div class="card stylish-card">
@@ -78,3 +78,9 @@ export default {
   layout: 'default',
 };
 </script>
+
+<script setup>
+import { useMouse } from './mouse.js'
+const { x, y } = useMouse()
+</script>
+<template>Mouse position is at: {{ x }}, {{ y }}</template>
